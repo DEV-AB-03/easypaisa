@@ -1,0 +1,113 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e4eff2;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+}
+
+.bg-light{
+    background-color: #0077b5!important;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', cursive;
+    font-size: 2rem;
+    color: black!important;
+}
+
+.nav-link{
+    color: black!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: white;
+}
+
+.hero-content{
+    height: 100vh;
+    background-color:white;
+    color: black;
+    padding: 2rem;
+    border-top-left-radius: 58rem;
+    border-top-right-radius: 58rem;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    margin-bottom: 1vh;
+}
+
+.img{
+    height: 80vh;
+    width: 100%;
+}
+
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 200%;
+    background-color: black;
+    color: white!important;
+    transition: 0.5s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: blue;
+    
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 50vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fa6c2a;
+    color: rgb(193, 8, 250)!important;
+    transition: 0.3s;
+}
+.get-started-content a:hover{
+    background-color: blue;
+    text-decoration: none;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+}
+
+.github{
+    color: black;
+}
+
+.linkedin{
+    color: #0077b5;
+}
